@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: rgb(211, 220, 245);
+    background-size: cover;
+    background-position: center;
+    overflow-y:  hidden;
+
+
+}
+.dna {
+    position: absolute;
+    top: 11px;
+    left: 100px;
+
+}
+.dna img{
+  height: auto;
+  width: 200px;
+}
+.moleculas{
+  position: absolute;
+  top: 630px;
+ right: 100PX;
+}
+.moleculas img{
+  height: auto;
+  width: 200px;
+}
+
+.liana {
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+ }
+ .liana img{
+  height: auto;
+  width: 350px;
+ }
+
+ .liana2 {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+ }
+ .liana2 img{
+  height: auto;
+  width: 350px;
+ }
+
+ .tucano {
+  position: absolute;
+  top: 290px;
+  left: 920px;
+ }
+ .tucano img{
+  height: auto;
+  width: 120px;
+ }
+
+.container {
+    width: 80%;
+    margin: 350px auto;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.start-button:hover {
+    background-color: #219d53;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 3</title>
+    <link rel="stylesheet" href="pergunta_3.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 3</h2>
+            <p>Qual relação ecológica é caracterizada pela interação entre dois organismos onde ambos se beneficiam?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('Mutualismo')">
+                    <input type="radio" id="pergunta3_alternativa1" name="question3" value="Mutualismo">
+                    <label for="pergunta3_alternativa1">Mutualismo</label>
+                </div>
+                <div class="option" onclick="selectOption('Parasitismo')">
+                    <input type="radio" id="pergunta3_alternativa2" name="question3" value="Parasitismo">
+                    <label for="pergunta3_alternativa2">Parasitismo</label>
+                </div>
+                <div class="option" onclick="selectOption('Comensalismo')">
+                    <input type="radio" id="pergunta3_alternativa3" name="question3" value="Comensalismo">
+                    <label for="pergunta3_alternativa3">Comensalismo.</label>
+                </div>
+                <div class="option" onclick="selectOption('Competição')">
+                    <input type="radio" id="pergunta3_alternativa4" name="question3" value="Competição">
+                    <label for="pergunta3_alternativa4">Competição.</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_3.js"></script>
+</body>
+</html>

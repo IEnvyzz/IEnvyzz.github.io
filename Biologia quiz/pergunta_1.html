@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 1</title>
+    <link rel="stylesheet" href="pergunta_1.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 1</h2>
+            <p>O que estuda a biologia?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('A composição das estrelas')">
+                    <input type="radio" id="pergunta1_alternativa1" name="question1" value="A composição das estrelas">
+                    <label for="pergunta1_alternativa1">A composição das estrelas.</label>
+                </div>
+                <div class="option" onclick="selectOption('A história antiga da humanidade')">
+                    <input type="radio" id="pergunta1_alternativa2" name="question1" value="A história antiga da humanidade">
+                    <label for="pergunta1_alternativa2">A história antiga da humanidade.</label>
+                </div>
+                <div class="option" onclick="selectOption('A estrutura interna da Terra')">
+                    <input type="radio" id="pergunta1_alternativa3" name="question1" value="A estrutura interna da Terra">
+                    <label for="pergunta1_alternativa3">A estrutura interna da Terra</label>
+                </div>
+                <div class="option" onclick="selectOption('Os organismos vivos e seus processos vitais')">
+                    <input type="radio" id="pergunta1_alternativa4" name="question1" value="Os organismos vivos e seus processos vitais">
+                    <label for="pergunta1_alternativa4">Os organismos vivos e seus processos vitais</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_1.js"></script>
+</body>
+</html>

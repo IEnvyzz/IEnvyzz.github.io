@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 4</title>
+    <link rel="stylesheet" href="pergunta_4.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 4</h2>
+            <p>Qual organela é responsável pela produção de energia na célula?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('Lisossomo')">
+                    <input type="radio" id="pergunta4_alternativa1" name="question4" value="Lisossomo">
+                    <label for="pergunta4_alternativa1">Lisossomo.</label>
+                </div>
+                <div class="option" onclick="selectOption('Complexo de Golgi')">
+                    <input type="radio" id="pergunta4_alternativa2" name="question4" value="Complexo de Golgi">
+                    <label for="pergunta4_alternativa2">Complexo de Golgi.</label>
+                </div>
+                <div class="option" onclick="selectOption('Retículo Endoplasmático')">
+                    <input type="radio" id="pergunta4_alternativa3" name="question4" value="Retículo Endoplasmático">
+                    <label for="pergunta4_alternativa3">Retículo Endoplasmático.</label>
+                </div>
+                <div class="option" onclick="selectOption('Mitocôndria')">
+                    <input type="radio" id="pergunta4_alternativa4" name="question4" value="Mitocôndria">
+                    <label for="pergunta4_alternativa4">Mitocôndria.</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_4.js"></script>
+</body>
+</html>

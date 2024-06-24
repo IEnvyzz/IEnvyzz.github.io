@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 6</title>
+    <link rel="stylesheet" href="pergunta_6.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 6</h2>
+            <p>Qual é a molécula que carrega a informação genética dos organismos vivos?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('RNA')">
+                    <input type="radio" id="pergunta6_alternativa1" name="question6" value="RNA">
+                    <label for="pergunta6_alternativa1">RNA.</label>
+                </div>
+                <div class="option" onclick="selectOption('DNA')">
+                    <input type="radio" id="pergunta6_alternativa2" name="question6" value="DNA">
+                    <label for="pergunta6_alternativa2">DNA.</label>
+                </div>
+                <div class="option" onclick="selectOption('Proteína')">
+                    <input type="radio" id="pergunta6_alternativa3" name="question6" value="Proteína">
+                    <label for="pergunta6_alternativa3">Proteína.</label>
+                </div>
+                <div class="option" onclick="selectOption('Lipídio')">
+                    <input type="radio" id="pergunta6_alternativa4" name="question6" value="Lipídio">
+                    <label for="pergunta6_alternativa4">Lipídio.</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_6.js"></script>
+</body>
+</html>

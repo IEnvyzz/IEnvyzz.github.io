@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 2</title>
+    <link rel="stylesheet" href="pergunta_2.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 2</h2>
+            <p>Qual teoria propõe que a vida surgiu a partir de moléculas orgânicas simples que se combinaram para formar moléculas mais complexas?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('Teoria da Evolução Química.')">
+                    <input type="radio" id="pergunta2_alternativa1" name="question2" value="Teoria da Evolução Química">
+                    <label for="pergunta2_alternativa1">Teoria da Evolução Química.</label>
+                </div>
+                <div class="option" onclick="selectOption('Teoria da Panspermia')">
+                    <input type="radio" id="pergunta2_alternativa2" name="question2" value="Teoria da Panspermia">
+                    <label for="pergunta2_alternativa2">Teoria da Panspermia.</label>
+                </div>
+                <div class="option" onclick="selectOption('Teoria da Biogênese')">
+                    <input type="radio" id="pergunta2_alternativa3" name="question2" value="Teoria da Biogênese">
+                    <label for="pergunta2_alternativa3">Teoria da Biogênese.</label>
+                </div>
+                <div class="option" onclick="selectOption('Teoria do Design Inteligente')">
+                    <input type="radio" id="pergunta2_alternativa4" name="question2" value="Teoria do Design Inteligente">
+                    <label for="pergunta2_alternativa4">Teoria do Design Inteligente.</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_2.js"></script>
+</body>
+</html>

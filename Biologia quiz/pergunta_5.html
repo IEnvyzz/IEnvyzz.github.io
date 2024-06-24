@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Biologia - Pergunta 5</title>
+    <link rel="stylesheet" href="pergunta_5.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div class="question-container">
+            <h2>Pergunta 5</h2>
+            <p>Qual é o processo pelo qual as células movimentam substâncias contra um gradiente de concentração utilizando energia?</p>
+            <form id="quiz-form">
+                <div class="option" onclick="selectOption('Osmose')">
+                    <input type="radio" id="pergunta5_alternativa1" name="question5" value="Osmose">
+                    <label for="pergunta5_alternativa1">Osmose.</label>
+                </div>
+                <div class="option" onclick="selectOption('Difusão simples')">
+                    <input type="radio" id="pergunta5_alternativa2" name="question5" value="Difusão simples">
+                    <label for="pergunta5_alternativa2">Difusão simples.</label>
+                </div>
+                <div class="option" onclick="selectOption('Difusão facilitada')">
+                    <input type="radio" id="pergunta5_alternativa3" name="question5" value="Difusão facilitada">
+                    <label for="pergunta5_alternativa3">Difusão facilitada.</label>
+                </div>
+                <div class="option" onclick="selectOption('Transporte ativo')">
+                    <input type="radio" id="pergunta5_alternativa4" name="question5" value="Transporte ativo">
+                    <label for="pergunta5_alternativa4">Transporte ativo.</label>
+                </div>
+                <button type="button" class="next-button" onclick="nextQuestion()">Próxima</button>
+            </form>
+        </div>
+    </div>
+    <script src="pergunta_5.js"></script>
+</body>
+</html>
